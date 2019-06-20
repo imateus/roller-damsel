@@ -94,7 +94,7 @@ playGame.prototype = {
     var tapText = game.add.bitmapText(game.width / 2, tap.y - 120, "font", "Toque para iniciar", 45);
     tapText.anchor.set(0.5);
     this.menuGroup.add(tapText);
-    var titleText = game.add.bitmapText(game.width / 2, tap.y - 200, "font", "Rollerblades Go!", 90);
+    var titleText = game.add.bitmapText(game.width / 2, tap.y - 200, "font", "Rollerblades Damsel", 90);
     titleText.anchor.set(0.5);
     this.menuGroup.add(titleText);
   },
@@ -364,7 +364,7 @@ playGame.prototype = {
       var text;      
  
       if(count>2){        
-        text = game.add.text(game.world.centerX, game.world.centerY, "\n- Quer namorar comigo? -", {
+        text = game.add.text(game.world.centerX, game.world.centerY, "\nQuer namorar comigo?\n Sim ou Claro ( ͡° ͜ʖ ͡°)", {
             font: "65px Arial",
             fill: "#ff0044",
             align: "center"
