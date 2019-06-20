@@ -185,7 +185,7 @@ playGame.prototype = {
           spike.y = this.highestFloorY - 20;
           spike.revive();
         } else {
-          var spike = game.add.sprite(spikeXPosition, this.highestFloorY - 40, "spike");
+          var spike = game.add.sprite(spikeXPosition, this.highestFloorY - 30, "spike");
           spike.anchor.set(0.5, 0);
           game.physics.enable(spike, Phaser.Physics.ARCADE);
           spike.body.immovable = true;
