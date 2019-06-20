@@ -94,7 +94,7 @@ playGame.prototype = {
     var tapText = game.add.bitmapText(game.width / 2, tap.y - 120, "font", "Toque para iniciar", 45);
     tapText.anchor.set(0.5);
     this.menuGroup.add(tapText);
-    var titleText = game.add.bitmapText(game.width / 2, tap.y - 200, "font", "Rollerblades Damsel", 90);
+    var titleText = game.add.bitmapText(game.width / 2, tap.y - 200, "font", "Roller Damsel", 90);
     titleText.anchor.set(0.5);
     this.menuGroup.add(titleText);
   },
