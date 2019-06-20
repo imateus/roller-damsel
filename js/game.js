@@ -365,7 +365,7 @@ playGame.prototype = {
  
       if(count>2){        
         text = game.add.text(game.world.centerX, game.world.centerY, "\nQuer namorar comigo?\n Sim ou Claro ( ͡° ͜ʖ ͡°)", {
-            font: "65px Arial",
+            font: "65px Calibri",
             fill: "#ff0044",
             align: "center"
         });
